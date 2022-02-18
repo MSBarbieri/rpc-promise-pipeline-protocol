@@ -1,0 +1,10 @@
+[package]
+name = "rpc-pp-core"
+version = "0.1.0"
+edition = "2021"
+lib = "rpc-pp-core"
+
+[dependencies]
+borsh = "0.9.3"
+tokio = { version = "1.16.0", features = ["full"] }
+tokio-rustls = "0.20"

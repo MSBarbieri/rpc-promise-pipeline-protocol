@@ -1,0 +1,9 @@
+[package]
+name = "rpc-pp-shared"
+version = "0.1.0"
+edition = "2021"
+lib = "rpc-pp-shared"
+
+[dependencies]
+borsh = "0.9.3"
+bitflags = "0.8.0"

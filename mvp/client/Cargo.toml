@@ -1,0 +1,9 @@
+[package]
+name = "rpc-pp-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rpc-pp-core = { path = "../core" }
+rpc-pp-shared = { path = "../shared" }
+tokio = { version = "1.16.1", features = ["full"] }
